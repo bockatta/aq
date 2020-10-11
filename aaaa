@@ -1,0 +1,17 @@
+local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- It's obfuscated, I won't let you see my ugly coding skills. =)
+
+local w = library:CreateWindow("LBA")
+
+local b = w:CreateFolder("Main")
+
+b:Button("Button",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Attabocklis/aq/main/Wad'))();
+end)
+
+local b = w:CreateFolder("Misc")
+
+b:Button("Copy Discord",function()
+   setclipboard("https://discord.gg/hcNnfZQ")
+end)
+
+b:DestroyGUI()
