@@ -1,0 +1,35 @@
+local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- It's obfuscated, I won't let you see my ugly coding skills. =)
+
+local w = library:CreateWindow("Flood Escape")
+
+local b = w:CreateFolder("Main")
+
+b:Button("Escape Easy",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-241, 160.600006, 62, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+
+b:Button("Escape Medium",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-241, 160.600006, 192, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+
+b:Button("Escape Hard",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-237.647919, 157.600006, 321.981873)
+end)
+
+local b = w:CreateFolder("TPS")
+
+b:Button("TP Hard",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-366.548492, 260.899994, 132.195969)
+end)
+
+b:Button("TP Easy",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-418.417358, 260.899933, 131.900345)
+end)
+
+b:Button("TP Medium",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-392.276459, 260.900024, 132.108276)
+end)
+
+b:Button("TP Extreme",function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-154.21196, 218.119904, 361.116364)
+end)
