@@ -4,7 +4,7 @@ local w = library:CreateWindow("LBA")
 
 local b = w:CreateFolder("Main")
 
-b:Button("Button",function()
+b:Button("Kill All",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Attabocklis/aq/main/Wad'))();
 end)
 
